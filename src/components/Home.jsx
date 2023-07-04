@@ -3,10 +3,10 @@ import React from 'react'
 const Home= () =>    {
   return (
     <>
-    <div> <br></br> <br></br><br></br></div>
+    <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
     <div className='a'>
            
-        Home
+       <h3> Home </h3> 
     </div>
     </>
   )

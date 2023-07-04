@@ -1,22 +1,13 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { Link , Outlet } from 'react-router-dom'
-function Base() {
+import Header from './Header'
+function Base({Children}) {
   return (
-    <div >
-       
-        <nav>
-          <ul >
-          <li> <Link className="btn btn-outline-light" to='/' > Home </Link>   </li>
-          <li> <Link className="btn btn-outline-light" to='/Menu' > Menu </Link>   </li>
-          <li> <Link className="btn btn-outline-light" to='/Ord' > Orders </Link>   </li>
-          <li> <Link className="btn btn-outline-light" to='/Contact' > Contact </Link>   </li>
-          
-         
-        </ul>
-        </nav>
-      
-        <Outlet />
-    </div>
+    <>
+    <Header/>
+    <br></br>
+    {Children}
+    </>
   )
 }
 

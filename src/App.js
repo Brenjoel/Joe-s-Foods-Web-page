@@ -18,9 +18,6 @@ function HandleButton(){
 function App() {
   return (
      <>
-         <div >
-        <button onClick={HandleButton}> Order Now </button>
-      </div>
         <BrowserRouter>
         <Routes>
           <Route path='/' element={<Base/> }>
@@ -28,7 +25,6 @@ function App() {
             <Route path='/Menu' element={<Menu/> }/>
             <Route path='/Ord' element={<Ord/> }/>
             <Route path='/getOrder' element={<GetOrder/> }/>
-
             <Route path='/Contact' element={<Contact/> }/>
           </Route>
         </Routes>

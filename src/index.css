@@ -35,7 +35,7 @@ ul li{
   text-align: center;
   width: 100px;
   overflow:hidden ;
-  background-color: #ffffff;
+  background-color: #cadae5;
   
   
 }
@@ -96,24 +96,26 @@ ul li:link{
 
 #left {
   float:left;
-  width:27%;
+  margin: 0 0 0 5%;
+  width:23%;
   height:auto;
-  background-color:white;
+  background-color:rgb(230, 162, 94);
   border:solid black;
 }
 #mid {
   float:left;
   margin: 0 0 0 10%;
-  width:27%;
+  width:23%;
   height: auto;
-  background-color:white;
+  background-color:rgb(230, 162, 94);
   border:solid black;
 }
 #right {
   float:right;
-  width:27%;
+  margin: 0 5% 0 0;
+  width:23%;
   height:auto;
-  background-color:white;
+  background-color:rgb(230, 162, 94);
   border:solid black;
 }
 
@@ -152,4 +154,11 @@ opacity: 0;
 .bg{
   color: #15ff53;
   background-color: red;
+}
+
+#c{
+  text-align: center;
+  font-size: xx-large;
+  color:#ffffff;
+
 }

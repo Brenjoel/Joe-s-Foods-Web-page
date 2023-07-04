@@ -13,6 +13,7 @@ const navOrd=()=>{
 
   return (
     <>
+    
      <div className='c'>
       <div >
         <br></br>
@@ -24,10 +25,10 @@ const navOrd=()=>{
           {prop.name}
           <br></br>
         {prop.cost}
+        
       
        </div>
 
- 
     </>
   )
 }

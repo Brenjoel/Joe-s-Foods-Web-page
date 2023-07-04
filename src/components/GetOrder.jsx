@@ -4,9 +4,32 @@ import { Link } from 'react-router-dom'
 function GetOrder() {
   return (
     <div>
-        <Link className="btn btn-outline-light" to="/getOrder">
-           Order Now
-          </Link>    </div>
+           <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
+
+    <h3 className='a'> Order Your Food Here </h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+          
   )
 }
 
