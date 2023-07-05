@@ -162,3 +162,14 @@ opacity: 0;
   color:#ffffff;
 
 }
+
+#cen {
+  align-items: center;
+  float:left;
+  padding: 10%;
+  width:auto;
+  height: auto;
+  background-color:rgb(205, 228, 232);
+  margin: 0 0 0 25%;
+}
+
