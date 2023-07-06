@@ -1,12 +1,12 @@
 import React, { Children } from 'react'
-import { Link , Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import Header from './Header'
-function Base({Children}) {
+function Base({ Children }) {
   return (
     <>
-    <Header/>
-    <br></br>
-    {Children}
+      <Header />
+      <br></br>
+      {Children}
     </>
   )
 }
