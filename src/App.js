@@ -1,37 +1,37 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter  , Route , Routes } from 'react-router-dom';
 import Base from './components/Base';
-import Menu from './components/Menu';
 import Contact from './components/Contact';
-import Ord from './components/Ord';
-import Home from './components/Home';
 import GetOrder from './components/GetOrder';
+import Home from './components/Home';
+import Menu from './components/Menu';
+import Ord from './components/Ord';
 
-function HandleButton(){
+function HandleButton() {
   return (
-  <>
-  <h1 className='bg' > aefdff </h1>
-  <GetOrder/>
-  </>
+    <>
+      <h1 className='bg' > aefdff </h1>
+      <GetOrder />
+    </>
   )
 }
 function App() {
   return (
-     <>
-        <BrowserRouter>
+    <>
+      <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Base/> }>
-            <Route index element={<Home/> }/>
-            <Route path='/Menu' element={<Menu/> }/>
-            <Route path='/Ord' element={<Ord/> }/>
-            <Route path='/getOrder' element={<GetOrder/> }/>
-            <Route path='/Contact' element={<Contact/> }/>
+          <Route path='/' element={<Base />}>
+            <Route index element={<Home />} />
+            <Route path='/Menu' element={<Menu />} />
+            <Route path='/Ord' element={<Ord />} />
+            <Route path='/getOrder' element={<GetOrder />} />
+            <Route path='/Contact' element={<Contact />} />
           </Route>
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
 
     </>
-    
+
   );
 }
 

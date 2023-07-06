@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Home= () =>    {
+const Home = () => {
   return (
     <>
-    <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
-    <div className='a'>
-           
-       <h3> Home </h3> 
-    </div>
+      <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
+      <div className='a'>
+
+        <h3> Home </h3>
+      </div>
     </>
   )
 }
