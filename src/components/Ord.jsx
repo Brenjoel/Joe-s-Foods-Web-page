@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
+import ord from '../images/ord.jpeg'
+
 
 function Ord() {
 
@@ -31,9 +33,11 @@ function Ord() {
     <>
        <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
     <div  id='cen'> 
-    <div className='a' ><h3>Orders </h3>  </div>
+    <div className='c' > <h3>  <img src={ord} /> </h3>    <br></br>     </div>
 
-    <table cellPadding={15}  >
+    <div className='a' ><h3>Orders  </h3>  </div>
+
+    <table cellPadding={40}  >
       <tr> 
       <th>ID</th>
       <th>Item</th>
@@ -64,7 +68,6 @@ function Ord() {
  <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
    </div>
  .  
-
     </>
   );
 }

@@ -107,7 +107,7 @@ ul li:link {
   margin: 0 0 0 10%;
   width: 20%;
   height: auto;
-  background-color: rgb(230, 162, 94);
+  background-color: rgb(255, 255, 255);
   border: solid black;
 }
 
@@ -116,7 +116,7 @@ ul li:link {
   margin: 0 0 0 10%;
   width: 20%;
   height: auto;
-  background-color: rgb(230, 162, 94);
+  background-color: rgb(255, 255, 255);
   border: solid black;
 }
 
@@ -125,7 +125,7 @@ ul li:link {
   margin: 0 5% 0 0;
   width: 20%;
   height: auto;
-  background-color: rgb(230, 162, 94);
+  background-color: rgb(255, 255, 255);
   border: solid black;
 }
 
@@ -170,7 +170,8 @@ ul li:link {
 #c {
   text-align: center;
   font-size: xx-large;
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
 
 }
 
@@ -181,7 +182,43 @@ ul li:link {
   width: auto;
   height: auto;
   background-color: rgb(164, 254, 184);
-  margin: 0 0 0 30%;
+  margin: 0 0 0 40%;
   
+}
+
+#cen1 {
+  align-items: center;
+  float: left;
+  padding: 5%;
+  width: auto;
+  height: auto;
+  background-color: rgb(164, 254, 184);
+  margin: 0 0 0 40%;
+  
+}
+
+#f1{
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+#f2{
+  font-weight:bolder;
+  text-align: right;
+  padding: 0 15% 0 0;
+  background-color: #8de971;
+}
+
+#v{
+  text-align: center;
+  font-size: xx-large;
+  color: #13ca29;
+}
+#nv{
+  text-align: center;
+  font-size: xx-large;
+  color: #f42a2a;
+
 }
 
