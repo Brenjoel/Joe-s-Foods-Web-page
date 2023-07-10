@@ -38,24 +38,34 @@ function GetOrder() {
       <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
 
 <div id='cen'style={{padding:41}}>
-<div className='c' > <h3>  <img src={m} /> </h3>    <br></br>     </div>
+<div className='c' >  <img src={m} />          </div>
 
       <h3 className='a'> Order Your Food Here </h3>
 {/* <div id='cen'> */}
-<table> 
-  <th> 
       <form onSubmit={(e) => onSubmit(e)} className='c'>
-        
-          <label for="name" > <h3> Name: </h3>            </label>
-          <input type='text' placeholder='Enter your name' name='name' value={name} onChange={(e) => onInputChange(e)} />
-
-          <label for="name"> <h3> Phone number: </h3>            </label>
-          <input type='number' placeholder='Enter your mobile number' name='phno' value={phno} onChange={(e) => onInputChange(e)} />
-          
-         
-          <label for="item"> <h3> Item: </h3>            </label>
-
-          <select name='item' value= {item} onChange={(e) => onInputChange(e)} >
+        <table> 
+          <tr>
+            <td> 
+            <label for="name" > <h3> Name: </h3>            </label>
+            </td>
+            <td>
+            <input type='text' placeholder='Enter your name' name='name' value={name} onChange={(e) => onInputChange(e)} />
+            </td>
+          </tr>
+          <tr>
+            <td> 
+            <label for="name"> <h3> Phone number: </h3>            </label>
+            </td>
+            <td>
+            <input type='number' placeholder='Enter your mobile number' name='phno' value={phno} onChange={(e) => onInputChange(e)} />
+            </td>
+          </tr>
+          <tr>
+            <td> 
+            <label for="item"> <h3> Item: </h3>            </label>
+            </td>
+            <td>
+            <select name='item' value= {item} onChange={(e) => onInputChange(e)} >
             <optgroup label='Non Veg'>
               <option value={'Chicken Biryani'}>Chicken Biryani</option>
               <option value={'Pot Biryani'}>Pot Biryani</option>
@@ -76,38 +86,32 @@ function GetOrder() {
             </optgroup>
           </select>
 
+            </td>
+          </tr>
+          <tr className='invisible'> <td>f</td> </tr>
+          <tr className='invisible'> <td>f</td> </tr>
+
+          <tr>
+            <td>
+            <button type='submit'> Place Order</button>
+            </td>
+            <td>
+            <button > <Link className="btn btn-outline-danger mx-2" to='/'>Cancel</Link></button>
+            </td>
+          </tr>
+
+          
+         
 
 
-          <div><br></br></div>
-
-     
-
-          <button type='submit'> Place Order</button>
-          <span className='invisible'> eefefe </span>
-          <button > <Link className="btn btn-outline-danger mx-2" to='/'>Cancel</Link></button>
-       
-
-
-
-
-
-
-
-
-
+  </table>
       </form>
-      </th>
-      </table>
-
-       {/* </div> */}
-      <br></br>
-      <br></br>
-      <div className='invisible'>eg</div>
-      <div className='invisible'>egggggggggggggggggggggggg</div>
-      <div className='invisible'>e</div>
-
+  {/* </div> */}
+      
       </div>
+      
     </div>
+
     </>
 
   )
