@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Item from './Item';
+import m from '../images/food order.png'
+
 
 function GetOrder() {
 
@@ -31,11 +33,17 @@ function GetOrder() {
               'Ice-Cream','Drink','Cake']
 
   return (
+    <>
     <div>
       <div> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> </div>
+
 <div id='cen'style={{padding:41}}>
+<div className='c' > <h3>  <img src={m} /> </h3>    <br></br>     </div>
+
       <h3 className='a'> Order Your Food Here </h3>
 {/* <div id='cen'> */}
+<table> 
+  <th> 
       <form onSubmit={(e) => onSubmit(e)} className='c'>
         
           <label for="name" > <h3> Name: </h3>            </label>
@@ -64,7 +72,7 @@ function GetOrder() {
             <optgroup label=' Desserts'>
               <option value={'Ice-Cream'}>Ice-Cream</option>
               <option value={'Cake'}>Cake</option>
-              <option value={'Drink'}>Drink</option>
+              <option value={'Drink'}>Soft Drinks</option>
             </optgroup>
           </select>
 
@@ -78,7 +86,6 @@ function GetOrder() {
           <span className='invisible'> eefefe </span>
           <button > <Link className="btn btn-outline-danger mx-2" to='/'>Cancel</Link></button>
        
-        <h2>{selectoption}</h2>
 
 
 
@@ -89,6 +96,9 @@ function GetOrder() {
 
 
       </form>
+      </th>
+      </table>
+
        {/* </div> */}
       <br></br>
       <br></br>
@@ -98,6 +108,7 @@ function GetOrder() {
 
       </div>
     </div>
+    </>
 
   )
 }

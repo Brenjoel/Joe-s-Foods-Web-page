@@ -22,9 +22,17 @@ function Item(prop) {
 
         </div>
         <br></br>
-        {prop.name}
+        <div id='f1'> {prop.name} </div>
+        
         <br></br>
-        {prop.cost}
+        <div style={{fontFamily:'cursive'}}> {prop.desc} </div>
+
+        <br></br>
+        <div id='f2'> {prop.cost} </div>
+
+        <br></br>
+
+        <br></br>
 
 
       </div>
