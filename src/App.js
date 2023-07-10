@@ -7,14 +7,6 @@ import Home from './components/Home';
 import Menu from './components/Menu';
 import Ord from './components/Ord';
 
-function HandleButton() {
-  return (
-    <>
-      <h1 className='bg' > aefdff </h1>
-      <GetOrder />
-    </>
-  )
-}
 function App() {
   return (
     <>

@@ -49,7 +49,7 @@ function GetOrder() {
             <label for="name" > <h3> Name: </h3>            </label>
             </td>
             <td>
-            <input type='text' placeholder='Enter your name' name='name' value={name} onChange={(e) => onInputChange(e)} />
+            <input required type='text' placeholder='Enter your name' name='name' value={name} onChange={(e) => onInputChange(e)} />
             </td>
           </tr>
           <tr>
@@ -57,7 +57,7 @@ function GetOrder() {
             <label for="name"> <h3> Phone number: </h3>            </label>
             </td>
             <td>
-            <input type='number' placeholder='Enter your mobile number' name='phno' value={phno} onChange={(e) => onInputChange(e)} />
+            <input required   type='number' placeholder='Enter your mobile number' name='phno' value={phno} onChange={(e) => onInputChange(e)} />
             </td>
           </tr>
           <tr>
@@ -65,7 +65,9 @@ function GetOrder() {
             <label for="item"> <h3> Item: </h3>            </label>
             </td>
             <td>
-            <select name='item' value= {item} onChange={(e) => onInputChange(e)} >
+            <select required name='item' value= {item} onChange={(e) => onInputChange(e)} >
+            <option value={''}>Select</option>
+
             <optgroup label='Non Veg'>
               <option value={'Chicken Biryani'}>Chicken Biryani</option>
               <option value={'Pot Biryani'}>Pot Biryani</option>

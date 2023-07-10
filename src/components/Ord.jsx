@@ -51,12 +51,8 @@ function Ord() {
           <td>{user.item}</td>
           <td>{user.name}</td>
           <td>{user.phno}</td>
-
           <td>
-           
-                  <button  onClick={() => deleteUser(user.id)}>
-                    Delete
-                  </button>
+                  <button  onClick={() => deleteUser(user.id)}>  Delete  </button>
           </td>
         </tr>
       ))}
