@@ -1,3 +1,7 @@
+Open folder location in terminal and run "npm start" to execute the front end code
+Now open eclipse and open "restaurant Backend" in exclipse and run as spring file 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
